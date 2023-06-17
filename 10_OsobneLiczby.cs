@@ -4,7 +4,7 @@
     {
         public OsobneLiczby()
         {
-            int liczba = Pomocnik.DostanLiczbe<int>("Liczba: ", int.MaxValue, 1);
+            int liczba = Pomocnik.DostanLiczbe<int>("Liczba : ", int.MaxValue, 100);
             List<int> lista = new List<int>();
             do
             {

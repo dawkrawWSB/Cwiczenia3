@@ -12,7 +12,7 @@ namespace Cwiczenia3
             {
                 Console.WriteLine(tekst);
                 input = Console.ReadLine();
-            } while (!T.TryParse(input, null, out result) && result >= limitGorny && result <= limitDolny);
+            } while (!T.TryParse(input, null, out result) || (result >= limitGorny || result <= limitDolny));
             return result;
         }
     }
